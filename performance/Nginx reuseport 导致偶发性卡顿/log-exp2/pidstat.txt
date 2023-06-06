@@ -1,0 +1,341 @@
+Linux 6.1.27-43.48.amzn2023.x86_64 (ip-172-31-89-152.ec2.internal)      06/05/23        _x86_64_        (2 CPU)
+
+07:44:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+07:44:46        0        14    0.00    0.20    0.00    0.00    0.20     0  ksoftirqd/0
+07:44:46        0        21    0.00    0.20    0.00    0.00    0.20     1  ksoftirqd/1
+07:44:46        0      2594    0.00    1.60    0.00    0.60    1.60     1  kworker/u4:1+flush-259:0
+07:44:46        0      2722    0.00    0.80    0.00    0.00    0.80     1  kworker/1:0-events
+07:44:46      992      2788    1.40    7.19    0.00    2.40    8.58     0  nginx
+07:44:46      992      2789    1.80   11.38    0.00    2.20   13.17     0  nginx
+
+07:44:41      UID       PID   cswch/s nvcswch/s  Command
+07:44:46        0        14     44.91      0.00  ksoftirqd/0
+07:44:46        0        15      2.20      0.00  rcu_preempt
+07:44:46        0        16      0.20      0.00  migration/0
+07:44:46        0        20      0.20      0.00  migration/1
+07:44:46        0        21     26.15      0.00  ksoftirqd/1
+07:44:46        0        33      2.00      0.00  kcompactd0
+07:44:46        0        43    317.17      0.00  kworker/1:1H-kblockd
+07:44:46        0        51      0.20      0.00  kswapd0
+07:44:46        0       129      2.40      0.00  kworker/u4:3-writeback
+07:44:46        0       248     17.56      0.00  kworker/0:1H-kblockd
+07:44:46        0       724     16.37      0.00  xfsaild/nvme0n1p1
+07:44:46        0      1160      0.20      0.00  auditd
+07:44:46        0      1255      0.20      0.00  irqbalance
+07:44:46      997      1256      0.20      0.00  lsmd
+07:44:46        0      1285      0.20      0.00  sssd_be
+07:44:46        0      1312      0.20      0.00  sssd_nss
+07:44:46        0      2103     22.55      0.00  kworker/0:2-events
+07:44:46        0      2501      0.40      0.00  sshd
+07:44:46        0      2594    337.13      0.40  kworker/u4:1+flush-259:0
+07:44:46        0      2722     24.75      0.00  kworker/1:0-events
+07:44:46      992      2788    339.72    101.00  nginx
+07:44:46      992      2789    744.91     49.10  nginx
+07:44:46        0      2791      0.20      0.00  pidstat
+
+07:44:46      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+07:44:51        0        33    0.00    0.20    0.00    0.00    0.20     1  kcompactd0
+07:44:51        0        43    0.00    0.20    0.00    0.00    0.20     1  kworker/1:1H-kblockd
+07:44:51        0        51    0.00    2.20    0.00    0.00    2.20     1  kswapd0
+07:44:51        0      2103    0.00    0.20    0.00    0.00    0.20     0  kworker/0:2-events
+07:44:51        0      2594    0.00    1.60    0.00    0.20    1.60     1  kworker/u4:1+flush-259:0
+07:44:51        0      2722    0.00    0.80    0.00    0.20    0.80     1  kworker/1:0-xfs-conv/nvme0n1p1
+07:44:51      992      2788    1.80    7.80    0.00    1.80    9.60     0  nginx
+07:44:51      992      2789    0.80    6.80    0.00    2.00    7.60     0  nginx
+07:44:51        0      2791    0.00    0.20    0.00    0.00    0.20     0  pidstat
+
+07:44:46      UID       PID   cswch/s nvcswch/s  Command
+07:44:51        0        14      4.60      0.00  ksoftirqd/0
+07:44:51        0        15      5.20      0.00  rcu_preempt
+07:44:51        0        16      0.20      0.00  migration/0
+07:44:51        0        20      0.20      0.00  migration/1
+07:44:51        0        21      8.20      0.00  ksoftirqd/1
+07:44:51        0        33      2.00      0.00  kcompactd0
+07:44:51        0        34      0.40      0.00  khugepaged
+07:44:51        0        43    403.40      0.00  kworker/1:1H-kblockd
+07:44:51        0        51     14.00     27.00  kswapd0
+07:44:51        0       129     59.60      0.00  kworker/u4:3-writeback
+07:44:51        0       131     39.40      0.00  kworker/u4:4-events_unbound
+07:44:51        0       248     68.40      0.00  kworker/0:1H-kblockd
+07:44:51        0       724     17.60      0.00  xfsaild/nvme0n1p1
+07:44:51        0       729      0.20      0.00  kworker/1:3-events
+07:44:51        0      1259      0.20      0.00  sssd
+07:44:51        0      1285      0.20      0.00  sssd_be
+07:44:51        0      1312      0.20      0.00  sssd_nss
+07:44:51        0      2103     22.00      0.00  kworker/0:2-events
+07:44:51        0      2501      5.80     44.40  sshd
+07:44:51        0      2594    470.20      0.00  kworker/u4:1+flush-259:0
+07:44:51        0      2722     50.60      0.00  kworker/1:0-xfs-conv/nvme0n1p1
+07:44:51        0      2724      0.20      0.00  systemd-userwor
+07:44:51        0      2725      0.20      0.00  systemd-userwor
+07:44:51        0      2726      0.20      0.00  systemd-userwor
+07:44:51      992      2788     42.00     14.40  nginx
+07:44:51      992      2789     92.20      3.60  nginx
+07:44:51        0      2791      0.20     26.80  pidstat
+
+07:44:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+07:44:56        0        43    0.00    0.20    0.00    0.00    0.20     1  kworker/1:1H-kblockd
+07:44:56        0        51    0.00    2.40    0.00    0.00    2.40     1  kswapd0
+07:44:56        0       248    0.00    0.20    0.00    0.00    0.20     0  kworker/0:1H-kblockd
+07:44:56        0       724    0.20    0.00    0.00    0.00    0.20     1  xfsaild/nvme0n1p1
+07:44:56        0      2594    0.00    1.40    0.00    0.40    1.40     0  kworker/u4:1+flush-259:0
+07:44:56        0      2722    0.00    0.60    0.00    0.20    0.60     1  kworker/1:0-events
+07:44:56      992      2788    1.20    7.80    0.00    2.00    9.00     0  nginx
+07:44:56      992      2789    0.80    6.60    0.00    1.80    7.40     0  nginx
+
+07:44:51      UID       PID   cswch/s nvcswch/s  Command
+07:44:56        0        14      5.80      0.00  ksoftirqd/0
+07:44:56        0        15      3.40      0.00  rcu_preempt
+07:44:56        0        16      0.40      0.00  migration/0
+07:44:56        0        20      0.40      0.00  migration/1
+07:44:56        0        21      6.60      0.00  ksoftirqd/1
+07:44:56        0        33      1.40      0.00  kcompactd0
+07:44:56        0        43    357.80      0.00  kworker/1:1H-kblockd
+07:44:56        0        51     13.00     18.60  kswapd0
+07:44:56        0       129     55.00      0.00  kworker/u4:3-events_unbound
+07:44:56        0       131      4.60      0.00  kworker/u4:4-writeback
+07:44:56        0       248     76.20      0.00  kworker/0:1H-kblockd
+07:44:56        0       724     16.20      0.00  xfsaild/nvme0n1p1
+07:44:56        0      1255      0.20      0.00  irqbalance
+07:44:56        0      1285      0.20      0.00  sssd_be
+07:44:56        0      1312      0.60      0.00  sssd_nss
+07:44:56      994      1509      0.40      0.00  chronyd
+07:44:56        0      2103     20.00      0.00  kworker/0:2-events
+07:44:56        0      2501      2.20     48.80  sshd
+07:44:56        0      2594    433.60      0.00  kworker/u4:1+flush-259:0
+07:44:56        0      2722     36.40      0.00  kworker/1:0-events
+07:44:56      992      2788     65.00     20.60  nginx
+07:44:56      992      2789    119.60     10.60  nginx
+07:44:56        0      2791      0.20      3.60  pidstat
+
+07:44:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+07:45:01        0        14    0.00    0.20    0.00    0.00    0.20     0  ksoftirqd/0
+07:45:01        0        33    0.00    0.20    0.00    0.00    0.20     1  kcompactd0
+07:45:01        0        43    0.00    0.20    0.00    0.00    0.20     1  kworker/1:1H-kblockd
+07:45:01        0        51    0.00    2.59    0.00    0.20    2.59     1  kswapd0
+07:45:01        0       129    0.00    0.20    0.00    0.00    0.20     0  kworker/u4:3-events_unbound
+07:45:01        0      2103    0.00    0.20    0.00    0.20    0.20     0  kworker/0:2-events
+07:45:01        0      2594    0.00    1.59    0.00    1.00    1.59     1  kworker/u4:1+flush-259:0
+07:45:01        0      2722    0.00    0.60    0.00    0.20    0.60     1  kworker/1:0-events
+07:45:01      992      2788    0.00    2.99    0.00    1.20    2.99     0  nginx
+07:45:01      992      2789    1.00   11.35    0.00    3.59   12.35     0  nginx
+07:45:01        0      2791    0.00    0.20    0.00    0.00    0.20     1  pidstat
+
+07:44:56      UID       PID   cswch/s nvcswch/s  Command
+07:45:01        0        14     15.54      0.00  ksoftirqd/0
+07:45:01        0        15      4.38      0.00  rcu_preempt
+07:45:01        0        16      0.20      0.00  migration/0
+07:45:01        0        20      0.20      0.00  migration/1
+07:45:01        0        21     16.93      0.00  ksoftirqd/1
+07:45:01        0        33      0.60      0.00  kcompactd0
+07:45:01        0        34      0.20      0.00  khugepaged
+07:45:01        0        43    264.94      0.00  kworker/1:1H-kblockd
+07:45:01        0        51     11.75     19.72  kswapd0
+07:45:01        0       129     40.64      0.00  kworker/u4:3-events_unbound
+07:45:01        0       131     45.62      0.00  kworker/u4:4-writeback
+07:45:01        0       248     65.14      0.00  kworker/0:1H-kblockd
+07:45:01        0       724     16.33      0.00  xfsaild/nvme0n1p1
+07:45:01      997      1256      0.20      0.00  lsmd
+07:45:01        0      1285      0.20      0.00  sssd_be
+07:45:01        0      1312      0.20      0.00  sssd_nss
+07:45:01        0      2103     18.33      0.00  kworker/0:2-events
+07:45:01        0      2501      1.39     51.20  sshd
+07:45:01        0      2594    330.48      0.20  kworker/u4:1+flush-259:0
+07:45:01        0      2722     45.02      0.00  kworker/1:0-events
+07:45:01      992      2788    259.36      2.59  nginx
+07:45:01      992      2789     45.62     44.62  nginx
+07:45:01        0      2791      0.40      1.39  pidstat
+
+07:45:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+07:45:06        0        21    0.00    0.20    0.00    0.00    0.20     1  ksoftirqd/1
+07:45:06        0        43    0.00    0.20    0.00    0.00    0.20     1  kworker/1:1H-kblockd
+07:45:06        0        51    0.00    2.40    0.00    0.00    2.40     0  kswapd0
+07:45:06        0      2501    0.00    0.20    0.00    0.60    0.20     1  sshd
+07:45:06        0      2594    0.00    2.00    0.00    1.40    2.00     0  kworker/u4:1+flush-259:0
+07:45:06        0      2722    0.00    1.00    0.00    0.80    1.00     1  kworker/1:0-xfs-conv/nvme0n1p1
+07:45:06      992      2788    0.80    8.80    0.00    7.20    9.60     0  nginx
+07:45:06      992      2789    1.00    9.00    0.00    5.40   10.00     0  nginx
+07:45:06        0      2791    0.20    0.00    0.00    1.80    0.20     1  pidstat
+
+07:45:01      UID       PID   cswch/s nvcswch/s  Command
+07:45:06        0        14     12.80      0.00  ksoftirqd/0
+07:45:06        0        15      4.60      0.00  rcu_preempt
+07:45:06        0        16      0.40      0.00  migration/0
+07:45:06        0        20      0.40      0.00  migration/1
+07:45:06        0        21     17.20      0.00  ksoftirqd/1
+07:45:06        0        43    416.60      0.00  kworker/1:1H-kblockd
+07:45:06        0        51     12.80     17.40  kswapd0
+07:45:06        0       129      1.00      0.00  kworker/u4:3-events_unbound
+07:45:06        0       131    116.60      0.00  kworker/u4:4-events_unbound
+07:45:06        0       248     57.80      0.00  kworker/0:1H-kblockd
+07:45:06        0       724     15.80      0.00  xfsaild/nvme0n1p1
+07:45:06        0      1255      0.20      0.00  irqbalance
+07:45:06        0      1285      0.20      0.00  sssd_be
+07:45:06        0      1312      0.20      0.00  sssd_nss
+07:45:06        0      2103     23.00      0.00  kworker/0:2-events
+07:45:06        0      2501    105.20      3.40  sshd
+07:45:06        0      2594    473.80      0.80  kworker/u4:1+flush-259:0
+07:45:06        0      2722     40.00      0.20  kworker/1:0-xfs-conv/nvme0n1p1
+07:45:06      992      2788     43.40      7.80  nginx
+07:45:06      992      2789     49.60      9.00  nginx
+07:45:06        0      2791      0.20    113.00  pidstat
+
+07:45:06      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+07:45:11        0        43    0.00    0.20    0.00    0.00    0.20     1  kworker/1:1H-kblockd
+07:45:11        0        51    0.00    2.40    0.00    0.00    2.40     1  kswapd0
+07:45:11        0      2103    0.00    0.20    0.00    0.00    0.20     0  kworker/0:2-events
+07:45:11        0      2501    0.20    0.00    0.00    0.00    0.20     1  sshd
+07:45:11        0      2594    0.00    1.80    0.00    0.80    1.80     0  kworker/u4:1+flush-259:0
+07:45:11        0      2722    0.00    0.80    0.00    0.40    0.80     1  kworker/1:0-xfs-conv/nvme0n1p1
+07:45:11      992      2788    1.20    8.20    0.00    2.20    9.40     0  nginx
+07:45:11      992      2789    0.40    8.00    0.00    1.60    8.40     0  nginx
+
+07:45:06      UID       PID   cswch/s nvcswch/s  Command
+07:45:11        0        14      7.40      0.00  ksoftirqd/0
+07:45:11        0        15      3.20      0.00  rcu_preempt
+07:45:11        0        16      0.20      0.00  migration/0
+07:45:11        0        20      0.20      0.00  migration/1
+07:45:11        0        21      7.40      0.00  ksoftirqd/1
+07:45:11        0        34      0.20      0.00  khugepaged
+07:45:11        0        43    397.00      0.00  kworker/1:1H-kblockd
+07:45:11        0        51     14.40     17.80  kswapd0
+07:45:11        0       129     46.20      0.00  kworker/u4:3-writeback
+07:45:11        0       131     53.20      0.00  kworker/u4:4-events_unbound
+07:45:11        0       248     80.20      0.00  kworker/0:1H-kblockd
+07:45:11        0       724     16.20      0.00  xfsaild/nvme0n1p1
+07:45:11        0      1285      0.20      0.00  sssd_be
+07:45:11        0      1312      0.20      0.00  sssd_nss
+07:45:11        0      2103     22.60      0.00  kworker/0:2-events
+07:45:11        0      2501     11.00     47.00  sshd
+07:45:11        0      2594    476.80      0.00  kworker/u4:1+flush-259:0
+07:45:11        0      2722     41.20      0.00  kworker/1:0-xfs-conv/nvme0n1p1
+07:45:11      992      2788     47.00     12.20  nginx
+07:45:11      992      2789     84.40      6.20  nginx
+07:45:11        0      2791      0.20     30.20  pidstat
+
+07:45:11      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+07:45:16        0        33    0.00    0.20    0.00    0.00    0.20     0  kcompactd0
+07:45:16        0        43    0.00    0.40    0.00    0.00    0.40     1  kworker/1:1H-kblockd
+07:45:16        0        51    0.00    2.40    0.00    0.20    2.40     1  kswapd0
+07:45:16        0      2103    0.00    0.20    0.00    0.00    0.20     0  kworker/0:2-events
+07:45:16        0      2594    0.00    2.20    0.00    1.20    2.20     1  kworker/u4:1+flush-259:0
+07:45:16        0      2722    0.00    0.80    0.00    0.40    0.80     1  kworker/1:0-xfs-conv/nvme0n1p1
+07:45:16      992      2788    1.00   10.40    0.00    4.00   11.40     0  nginx
+07:45:16      992      2789    0.00    9.40    0.00    3.60    9.40     0  nginx
+07:45:16        0      2791    0.00    0.20    0.00    0.00    0.20     0  pidstat
+
+07:45:11      UID       PID   cswch/s nvcswch/s  Command
+07:45:16        0        14     18.00      0.00  ksoftirqd/0
+07:45:16        0        15      8.40      0.00  rcu_preempt
+07:45:16        0        16      0.40      0.00  migration/0
+07:45:16        0        20      0.40      0.00  migration/1
+07:45:16        0        21     19.80      0.00  ksoftirqd/1
+07:45:16        0        33      1.20      0.00  kcompactd0
+07:45:16        0        43    416.40      0.00  kworker/1:1H-kblockd
+07:45:16        0        51     14.20     17.40  kswapd0
+07:45:16        0       129     19.20      0.00  kworker/u4:3-writeback
+07:45:16        0       131     15.20      0.00  kworker/u4:4-events_unbound
+07:45:16        0       248     64.60      0.00  kworker/0:1H-kblockd
+07:45:16        0       724     16.20      0.00  xfsaild/nvme0n1p1
+07:45:16        0      1255      0.20      0.00  irqbalance
+07:45:16      997      1256      0.20      0.00  lsmd
+07:45:16        0      1285      0.20      0.00  sssd_be
+07:45:16        0      1289      0.20      0.00  gssproxy
+07:45:16        0      1312      0.20      0.00  sssd_nss
+07:45:16      994      1509      0.40      0.00  chronyd
+07:45:16        0      2103     27.00      0.00  kworker/0:2-events
+07:45:16        0      2501     17.00      0.00  sshd
+07:45:16        0      2594    481.00      0.40  kworker/u4:1+flush-259:0
+07:45:16        0      2722     40.80      0.00  kworker/1:0-xfs-conv/nvme0n1p1
+07:45:16        0      2724      1.60      0.00  systemd-userwor
+07:45:16        0      2725      1.40      0.00  systemd-userwor
+07:45:16        0      2726      0.20      0.00  systemd-userwor
+07:45:16      992      2788     71.60     27.00  nginx
+07:45:16      992      2789    119.80      5.00  nginx
+07:45:16        0      2791      0.20      0.60  pidstat
+
+07:45:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+07:45:21        0        14    0.00    0.20    0.00    0.00    0.20     0  ksoftirqd/0
+07:45:21        0        33    0.00    0.20    0.00    0.00    0.20     1  kcompactd0
+07:45:21        0        51    0.00    1.00    0.00    0.20    1.00     1  kswapd0
+07:45:21        0      2594    0.00    0.80    0.00    0.20    0.80     0  kworker/u4:1-events_unbound
+07:45:21        0      2722    0.00    0.40    0.00    0.00    0.40     1  kworker/1:0-events
+07:45:21      992      2788    0.80   11.00    0.00    1.60   11.80     0  nginx
+07:45:21      992      2789    1.60   10.00    0.00    3.60   11.60     0  nginx
+
+07:45:16      UID       PID   cswch/s nvcswch/s  Command
+07:45:21        0        14     69.80      0.00  ksoftirqd/0
+07:45:21        0        15     37.40      0.00  rcu_preempt
+07:45:21        0        16      0.20      0.00  migration/0
+07:45:21        0        20      0.20      0.00  migration/1
+07:45:21        0        21     18.60      0.00  ksoftirqd/1
+07:45:21        0        33      1.80      0.00  kcompactd0
+07:45:21        0        34      0.40      0.00  khugepaged
+07:45:21        0        43    194.00      0.00  kworker/1:1H-kblockd
+07:45:21        0        51      9.40      5.00  kswapd0
+07:45:21        0       129     20.00      0.00  kworker/u4:3-writeback
+07:45:21        0       131     17.40      0.00  kworker/u4:4-events_unbound
+07:45:21        0       248     19.00      0.00  kworker/0:1H-kblockd
+07:45:21        0       724     17.00      0.00  xfsaild/nvme0n1p1
+07:45:21        0      1259      0.20      0.00  sssd
+07:45:21        0      1285      0.20      0.00  sssd_be
+07:45:21        0      1312      0.20      0.00  sssd_nss
+07:45:21        0      2103     47.40      0.00  kworker/0:2-events
+07:45:21        0      2501     21.00      0.00  sshd
+07:45:21        0      2594    212.60      0.40  kworker/u4:1-events_unbound
+07:45:21        0      2722     29.40      0.00  kworker/1:0-events
+07:45:21      992      2788    403.60     43.80  nginx
+07:45:21      992      2789    745.80     55.20  nginx
+07:45:21        0      2791      0.20      0.00  pidstat
+^C
+
+Average:      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+Average:        0        14    0.00    0.07    0.00    0.00    0.07     -  ksoftirqd/0
+Average:        0        21    0.00    0.05    0.00    0.05    0.05     -  ksoftirqd/1
+Average:        0        33    0.00    0.10    0.00    0.00    0.10     -  kcompactd0
+Average:        0        43    0.00    0.17    0.00    0.00    0.17     -  kworker/1:1H-kblockd
+Average:        0        51    0.00    1.92    0.00    0.07    1.92     -  kswapd0
+Average:        0       129    0.00    0.02    0.00    0.00    0.02     -  kworker/u4:3-writeback
+Average:        0       248    0.00    0.02    0.00    0.00    0.02     -  kworker/0:1H-kblockd
+Average:        0       724    0.02    0.00    0.00    0.02    0.02     -  xfsaild/nvme0n1p1
+Average:        0      2103    0.00    0.10    0.00    0.02    0.10     -  kworker/0:2-events
+Average:        0      2501    0.02    0.02    0.00    0.07    0.05     -  sshd
+Average:        0      2594    0.00    1.62    0.00    0.72    1.62     -  kworker/u4:1-events_unbound
+Average:        0      2722    0.00    0.72    0.00    0.27    0.72     -  kworker/1:0-events
+Average:      992      2788    1.02    8.02    0.00    2.80    9.04     -  nginx
+Average:      992      2789    0.92    9.07    0.00    2.97    9.99     -  nginx
+Average:        0      2791    0.02    0.07    0.00    0.22    0.10     -  pidstat
+
+Average:      UID       PID   cswch/s nvcswch/s  Command
+Average:        0        14     22.36      0.00  ksoftirqd/0
+Average:        0        15      8.59      0.00  rcu_preempt
+Average:        0        16      0.27      0.00  migration/0
+Average:        0        20      0.27      0.00  migration/1
+Average:        0        21     15.11      0.00  ksoftirqd/1
+Average:        0        33      1.12      0.00  kcompactd0
+Average:        0        34      0.15      0.00  khugepaged
+Average:        0        43    345.87      0.00  kworker/1:1H-kblockd
+Average:        0        51     11.22     15.36  kswapd0
+Average:        0       129     30.50      0.00  kworker/u4:3-writeback
+Average:        0       131     36.50      0.00  kworker/u4:4-events_unbound
+Average:        0       248     56.11      0.00  kworker/0:1H-kblockd
+Average:        0       724     16.46      0.00  xfsaild/nvme0n1p1
+Average:        0       729      0.02      0.00  kworker/1:3-events
+Average:        0      1160      0.02      0.00  auditd
+Average:        0      1255      0.10      0.00  irqbalance
+Average:      997      1256      0.07      0.00  lsmd
+Average:        0      1259      0.05      0.00  sssd
+Average:        0      1285      0.20      0.00  sssd_be
+Average:        0      1289      0.02      0.00  gssproxy
+Average:        0      1312      0.25      0.00  sssd_nss
+Average:      994      1509      0.10      0.00  chronyd
+Average:        0      2103     25.36      0.00  kworker/0:2-events
+Average:        0      2501     20.48     24.36  sshd
+Average:        0      2594    401.90      0.27  kworker/u4:1-events_unbound
+Average:        0      2722     38.52      0.02  kworker/1:0-events
+Average:        0      2724      0.22      0.00  systemd-userwor
+Average:        0      2725      0.20      0.00  systemd-userwor
+Average:        0      2726      0.05      0.00  systemd-userwor
+Average:      992      2788    159.06     28.68  nginx
+Average:      992      2789    250.26     22.93  nginx
+Average:        0      2791      0.22     21.93  pidstat
