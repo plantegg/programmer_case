@@ -1,0 +1,71 @@
+BEGIN{
+        printf("Tracing tcp drops. Hit Ctrl-C to end.\n");
+        printf("%-8s %-21s %-21s %-8s %-8s\n", "TIME", "SADDR:SPORT", "DADDR:DPORT", "STATE", "RET");
+        @tcp_states[1] = "ESTAB";
+        @tcp_states[2] = "SYN_SENT";
+        @tcp_states[3] = "SYN_RECV";
+        @tcp_states[4] = "FIN_WAIT1";
+        @tcp_states[5] = "FIN_WAIT2";
+        @tcp_states[6] = "TIME_WAIT";
+        @tcp_states[7] = "CLOSE";
+        @tcp_states[8] = "CLOSE_WAIT";
+        @tcp_states[9] = "LAST_ACK";
+        @tcp_states[10] = "LISTEN";
+        @tcp_states[11] = "CLOSING";
+        @tcp_states[12] = "NEW_SYN_RECV";
+}
+
+
+kprobe:tcp_check_req {
+        @start[cpu, tid] = nsecs;
+        @sk[cpu, tid] = arg0;
+        @skb[cpu, tid] = arg1;
+        printf("%s\n", kstack);
+}
+
+kretprobe:tcp_check_req {
+        if (@start[cpu, tid]){
+                $sk = (struct sock *)@sk[cpu,tid];
+                $skb = (struct sk_buff *)@skb[cpu, tid];
+                $iph = (struct iphdr *)($skb->head + $skb->network_header);
+                $saddr = ntop($iph->saddr);
+                $daddr = ntop($iph->daddr);
+                if ($iph->protocol != 6) {
+                        return;
+                }
+                $tcph = (struct tcphdr *)($skb->head + $skb->transport_header);
+                $source_port = bswap($tcph->source);
+                $dest_port = bswap($tcph->dest);
+                if ($dest_port != 8000)
+                {
+                        return;
+                }
+
+                $state=$sk->__sk_common.skc_state;
+                $statestr = @tcp_states[$state];
+                time("%H:%M:%S ");
+                if(retval !=0){
+                        return;
+                }
+                if ($tcph->rst != 1)
+                {
+                        return;
+                }
+                if ($tcph->ack != 1)
+                {
+                        return;
+                }
+                printf("%39s:%-6d %39s:%-6d %-10s %-10d\n", $saddr, $source_port, $daddr, $dest_port, $statestr, retval);
+
+        }
+        delete(@start[cpu, tid]);
+        delete(@sk[cpu,tid]);
+        delete(@skb[cpu, tid]);
+}
+
+END{
+        clear(@tcp_states);
+        clear(@start);
+        clear(@sk);
+        clear(@skb);
+}
